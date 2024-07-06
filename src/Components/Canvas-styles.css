@@ -1,0 +1,86 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.can-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,#595757,#1e1d1d);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.c-bar {
+    width: 25%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: #dfdce3;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1.5vh;
+    margin-right: 4vw;
+    margin-top: 2vh;
+}
+
+.c-btn {
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #dfdce3;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-family: Georgia, serif;
+    font-size: 3vh;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.c-bar img {
+    width: 3vw;
+    height: 3vh;
+    margin-top: 0.75vh;
+}
+
+.c-separator {
+    border-left: 2px solid gray;
+    height: 3vh;
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+}
+
+.can-container input {
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+#stroke{
+    border-radius: 50%;
+    height: 4vhx;
+    width: 4vw;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#stroke::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+#stroke::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}

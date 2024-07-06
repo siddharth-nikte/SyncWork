@@ -1,0 +1,44 @@
+.nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1.5rem;
+    color: azure;
+    background-color: #131516;
+}
+
+.nav p{
+    font-size: x-large;
+}
+
+.option button{
+    cursor: pointer;
+    border: 1px;
+    border-color: azure;
+    background-color: azure;
+    color: #131516;
+    border-radius: 2rem;
+    height: 40px;
+    width: 160px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 0.25rem;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1 rem;
+}
+
+.nav li{
+    padding: 0 0.5rem;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    font-size: medium;
+}

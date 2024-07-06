@@ -1,0 +1,83 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.doc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg,#595757,#1e1d1d);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+.bar {
+  width: 25%;
+  height: 4.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: #dfdce3;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-bottom: 1vh;
+  margin-right: 59vw;
+}
+
+.btn {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: #dfdce3;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-family: Georgia, serif;
+  font-size: 3vh;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.separator {
+  border-left: 2px solid gray;
+  height: 3vh;
+  margin-left: 1vw;
+  margin-right: 1.5vw;
+}
+
+#btn-img {
+  margin-top: 2px;
+  padding: 0px;
+}
+
+.bar img {
+  width: 3vw;
+  height: 3vh;
+}
+
+.editor {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 2px solid gray;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  font-size: large;
+  height: 60vh;
+  width: 80vw;
+  overflow: auto;
+  padding: 2%;
+  background-color: #dfdce3;
+  color: black;
+  text-align: left;
+}
