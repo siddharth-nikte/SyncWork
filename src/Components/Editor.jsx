@@ -4,6 +4,7 @@ import "./Editor-styles.css"
 import AlignLeft from './Images/align-left.svg';
 import AlignCenter from './Images/align-center.svg';
 import AlignRight from './Images/align-right.svg';
+import Auth from './Auth.jsx';
 
 export default function Editor() {
     const [showHeading, setShowHeading] = useState(""); //Add Heading
@@ -81,7 +82,9 @@ export default function Editor() {
                         {showHeading && <h1>New heading</h1>}
                     </p>
                 </div>
+                <Auth/>
             </div>
+            
         </>
     )
 }
