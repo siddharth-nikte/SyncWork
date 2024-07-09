@@ -6,10 +6,10 @@
   background-color: rgb(226, 102, 71);
   color: white;
   border: none;
-  padding: 5px;
-  font-size: 31px;
-  height: 70px;
-  width: 70px;
+  padding: 0.5vh;
+  font-size: 3.4px;
+  height: 7vh;
+  width: 7vw;
   box-shadow: 0 2px 4px darkslategray;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -18,9 +18,8 @@
 
 .modal {
   margin-right: 10vh;
-  width: 400px;
-  height: 130px;
-
+  width: 24vw;
+  height: 24vh;
   font-size: 2px;
   text-align: center;
   color: black;
