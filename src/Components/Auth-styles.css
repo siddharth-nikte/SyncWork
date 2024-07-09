@@ -1,45 +1,54 @@
-.new{
-    position: sticky;
-    z-index: 999;
-    top: auto;
-    left: 92vw;
-    background-color: rgb(226, 102, 71);
-    color: white;
-    border: none;
-    padding: 5px;
-    font-size: 31px;
-    height: 70px;
-    width: 70px;
-    box-shadow: 0 2px 4px darkslategray;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    border-radius: 70%;
+.new {
+  position: sticky;
+  z-index: 999;
+  top: auto;
+  left: 92vw;
+  background-color: rgb(226, 102, 71);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 70%;
 }
+
 .modal {
-    margin-right:10vh;
-    width:400px;
-    height:250px;
-    font-size: 2px;
-    text-align:center;
-    background-color:black;
-  }
-  .modal > .header {
-    width: 100%;
-    border-bottom: 1px solid gray;
-    font-size: 13px;
-    text-align: center;
-    padding: 5px;
-  }
-  .modal > .content {
-    width: 100%;
-    padding: 20px 5px;
-  }
-  .modal > .actions {
-    width: 100%;
-    color:white;
-    padding: 20px 6px;
-    margin-top:150px;
-    text-align: center;
-     }
-   
-          
+  margin-right: 10vh;
+  width: 400px;
+  height: 130px;
+
+  font-size: 2px;
+  text-align: center;
+  color: black;
+  background-color: #beb7a4;
+}
+
+.modal>.header {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+}
+
+.modal>.content {
+  width: 100%;
+  padding: 20px 5px;
+}
+
+.modal>.actions {
+  width: 100%;
+  padding: 20px 6px;
+  margin-top: 7px;
+  text-align: center;
+}
+.button{
+  margin-right:6px;
+  padding: 4px 4px;
+  background-color: black;
+  color:white;
+  border-radius: 4px;
+}

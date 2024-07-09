@@ -4,25 +4,25 @@ import "./Auth-styles.css"
 
 export default function Auth(){
     return(
-    <Popup
-    trigger={<button className="new"> + </button>}
-    modal
-    nested
-  >
-    {close => (
-      <div className="modal">
+      <Popup
+      trigger={<button className="new"> + </button>}
+      modal
+      nested
+    >
+      {close => (
+        <div className="modal">
         <button className="close" onClick={close}>
           &times;
         </button>
-        <div className="header"> Modal Title </div>
-    
-          
+        <div className="header"> Create New Session or Join </div>         
         <div className="actions">
           <Popup
-            trigger={<button className="button"> New </button>}
+            trigger = {<button className="button"> New </button>}
             position="top center"
             nested
+            modal
           >
+            <div>Siiddharth</div>
           </Popup>
           <Popup
             trigger={<button className="button"> Join </button>}
@@ -32,7 +32,7 @@ export default function Auth(){
           </Popup>
         </div>
       </div>
-    )}
-  </Popup>
+      )}
+    </Popup>
 );
 }
