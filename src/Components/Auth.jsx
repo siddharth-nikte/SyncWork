@@ -22,13 +22,15 @@ export default function Auth(){
             nested
             modal
           >
-            <div>Siiddharth</div>
+            <div className="sidd">
+              Session code</div>
           </Popup>
           <Popup
             trigger={<button className="button"> Join </button>}
             position="top center"
             nested
           >
+            <div className="akshat">Join the Session</div>
           </Popup>
         </div>
       </div>
